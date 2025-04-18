@@ -1,0 +1,14 @@
+Draw a structured flowchart or write pseudocode that describes the process of guessing a number between 1 and 100. 
+After each guess, the player is told that the guess is too high or too low. The process continues until the player guess the correct number.
+
+start
+  guess a number between 1 and 100
+  while guess is not correct
+    if guess is too high
+      guess a number lower
+    else
+      guess a number higher
+    endif
+  endwhile
+  player wins
+stop
