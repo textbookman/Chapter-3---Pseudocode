@@ -1,1 +1,11 @@
-
+Write pseudocode that describes the process of looking up a word in a dictionary. 
+start
+  open dictionary
+  while word not on page
+    if word > last word on page
+      go forward by page
+    else
+      go backward by page
+    endif
+  endwhile
+stop
